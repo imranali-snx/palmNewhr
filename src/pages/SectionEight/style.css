@@ -1,0 +1,131 @@
+.eight-left-list {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.eight-left-head-one-tag {
+  padding-bottom: 2%;
+}
+.eight-left-head-two {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #043344;
+}
+.eight-left-tag p {
+  margin: 0px;
+}
+.eight-left-list ul li {
+  list-style: none;
+
+  color: #688192;
+  padding: 1%;
+}
+
+.eight-left-tag-btn {
+  padding: 2% 10%;
+  font-size: 16px;
+  background-color: #ffffff;
+  border: 2px solid #ec9a2b;
+  border-radius: 4px;
+  color: #ec9a2b;
+  font-weight: 700;
+}
+.eight-left-tag-btn:hover {
+  cursor: pointer;
+}
+.eight-right-tag-img {
+  width: 90%;
+}
+
+.eight-resposive-one {
+  display: none;
+}
+
+.eight-left-head-two-tag {
+  text-align: justify;
+  padding-left: 21%;
+}
+.eight-left-list ul {
+  text-align: justify;
+  padding-left: 20%;
+}
+.eight-teamicon {
+  padding-right: 2%;
+}
+.eight-left-head-one {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #1a938a;
+  padding-right: 6%;
+}
+@media screen and (max-width: 1240px) {
+  .eight-left-head-one {
+    padding-right: 2%;
+  }
+  .eight-left-head-two-tag {
+    padding-left: 19%;
+  }
+
+  .eight-right-tag-img {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .eight-resposive-one {
+    display: block;
+  }
+  .eight-resposive-two {
+    display: none;
+  }
+  .eight-right-tag-img {
+    width: 60%;
+  }
+  .eight-left-head-two-tag p {
+    font-size: 35px;
+  }
+  .left-tag {
+    text-align: center;
+  }
+  .eight-left-head-two-tag {
+    text-align: center;
+    padding-left: 0%;
+  }
+
+  .eight-left-head-one {
+    padding-right: 0%;
+  }
+  .eight-left-list ul {
+    padding-left: 38%;
+  }
+  .eight-right-tag-img {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 730px) {
+  .eight-left-list ul {
+    padding-left: 32%;
+  }
+}
+@media screen and (max-width: 520px) {
+  .eight-left-head-two-tag p {
+    font-size: 25px;
+  }
+  .eight-left-list ul {
+    padding-left: 28%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .eight-left-list ul {
+    padding-left: 14%;
+  }
+
+  .eight-left-head-one {
+    font-size: 14px;
+  }
+}
