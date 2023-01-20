@@ -3,7 +3,7 @@ import Sectionone from "./Sectionone";
 import Sectiontwo from "./Sectiontwo";
 import Sectionthree from "./Sectionthree";
 import Sectionfour from "./Sectionfour";
-import Sectionfive from "./Sectionfive";
+// import Sectionfive from "./Sectionfive";
 import Section7 from "./Section7";
 
 import SectionSix from "./SectionSix";
@@ -28,7 +28,7 @@ const IndexPage = () => {
       <Sectiontwo />
       <Sectionthree />
       <Sectionfour />
-      <Sectionfive />
+      {/* <Sectionfive /> */}
       <Section7 />
       <SectionSix />
       <SectionSeven />
