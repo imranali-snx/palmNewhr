@@ -1,7 +1,7 @@
 import { Row,Col } from 'antd'
 import React from 'react'
 import './style.css'
-import Frame from '../../images/Frame.png'
+import Frame from '../../images/TenFrame.png'
 import circle from '../../images/circle.png'
 import circleimg from '../../images/circleimg.png'
 import {CheckCircleOutlined} from '@ant-design/icons';

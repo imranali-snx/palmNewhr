@@ -1,8 +1,17 @@
 .eight-left-list {
+padding-top: 4%;
+
   font-family: "Satoshi";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
+  width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-left: -20px;
 }
 
 .eight-left-head-one-tag {
@@ -22,7 +31,7 @@
   list-style: none;
 
   color: #688192;
-  padding: 1%;
+  /* padding: 1%; */
 }
 
 .eight-left-tag-btn {
@@ -33,6 +42,8 @@
   border-radius: 4px;
   color: #ec9a2b;
   font-weight: 700;
+  margin-left: -50px;
+  margin-top: 5%;
 }
 .eight-left-tag-btn:hover {
   cursor: pointer;
@@ -47,11 +58,19 @@
 
 .eight-left-head-two-tag {
   text-align: justify;
-  padding-left: 21%;
+  padding-left: 25%;
 }
 .eight-left-list ul {
+  /* text-align: justify;
+  padding-left: 20%; */
   text-align: justify;
-  padding-left: 20%;
+  margin: auto;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    gap: 10px;
 }
 .eight-teamicon {
   padding-right: 2%;
@@ -62,9 +81,21 @@
   font-weight: 700;
   font-size: 14px;
   color: #1a938a;
-  padding-right: 6%;
+  padding-left: 22%;
+  letter-spacing: 0.365em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.eight-resposive-two{
+  margin-top: -60px;
+    padding-right: 3%;
 }
 @media screen and (max-width: 1240px) {
+  .eight-left-tag-btn {
+  
+    margin-left: 0px;
+  } 
   .eight-left-head-one {
     padding-right: 2%;
   }
@@ -73,10 +104,25 @@
   }
 
   .eight-right-tag-img {
-    width: 85%;
+    width: 90%;
   }
 }
 @media screen and (max-width: 992px) {
+  .eight-left-head-one {
+    font-size: 10px;
+    padding-left: 0%;
+  
+  }
+  .eight-left-list{
+    margin-left: 0px;
+  }
+  .eight-left-head-one-tag{
+    margin-top: 25px;
+  }
+  .eight-left-tag-btn {
+  margin-top: 5%;
+    /* margin-left: 0px; */
+  } 
   .eight-resposive-one {
     display: block;
   }
@@ -84,7 +130,7 @@
     display: none;
   }
   .eight-right-tag-img {
-    width: 60%;
+    width: 90%;
   }
   .eight-left-head-two-tag p {
     font-size: 35px;
@@ -101,15 +147,13 @@
     padding-right: 0%;
   }
   .eight-left-list ul {
-    padding-left: 38%;
+    /* padding-left: 38%; */
   }
-  .eight-right-tag-img {
-    width: 50%;
-  }
+  
 }
 @media screen and (max-width: 730px) {
   .eight-left-list ul {
-    padding-left: 32%;
+    /* padding-left: 32%; */
   }
 }
 @media screen and (max-width: 520px) {
@@ -117,15 +161,18 @@
     font-size: 25px;
   }
   .eight-left-list ul {
-    padding-left: 28%;
+    /* padding-left: 28%; */
   }
 }
 @media screen and (max-width: 350px) {
   .eight-left-list ul {
-    padding-left: 14%;
+    /* padding-left: 14%; */
   }
 
   .eight-left-head-one {
     font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }

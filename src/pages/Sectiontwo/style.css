@@ -1,0 +1,251 @@
+body {
+  margin: 0;
+}
+h2{
+  font-family: "Satoshi" !important;
+}
+p{
+  font-family: "Satoshi" !important;
+}
+.dot-color{
+  color: #1a938a;
+}
+.saudi {
+  background-color: #1a938a;
+  color: #ffffff;
+  padding: 3px;
+  border-radius: 7px;
+}
+.heroSection-img img {
+  width: 100%;
+  padding-bottom: 45px;
+}
+.position-hero {
+  padding-left: 120px;
+  padding-top: 20px;
+}
+.background-hero {
+  background-color: #fcf9f3;
+  background-size: contain;
+}
+
+.first-line {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 135.5%;
+  text-transform: uppercase;
+  color: #1a938a;
+}
+.title-hero {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 135.5%;
+  color: #043344;
+  width: 80%;
+  margin: 0px !important;
+  width: 448px;
+}
+.second-line {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 135.5%;
+  text-transform: uppercase;
+  color: #1a938a;
+}
+.hero-btn {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.hero-firstbtn {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #ec9a2b;
+  width: 216px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+}
+.hero-firstbtn:hover {
+  color: #ec9a2b !important;
+  border-color: #ec9a2b !important;
+  background-color: #ffffff;
+}
+.hero-secondbtn {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: #1a938a;
+  border: 2px solid #1a938a;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  width: 216px;
+  height: 48px;
+  border-radius: 4px;
+}
+.hero-secondbtn:hover {
+  color: #ffffff !important;
+  border-color: #1a938a !important;
+  background-color: #1a938a;
+}
+.hero-bullets ul {
+  padding: 0% !important;
+}
+.hero-bullets ul li {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.hero-bullets ul li p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 184%;
+  color: #205260;
+}
+.hero-bullets ul li img {
+  width: 40px;
+  height: 40px;
+}
+.lefthero {
+  position: absolute;
+}
+.hero-btn-sec {
+  display: none;
+}
+.hero-bullets-sec {
+  display: none;
+}
+@media (max-width: 1200px) {
+  .position-hero {
+    padding-left: 0px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+  }
+  .title-hero {
+    text-align: center;
+  }
+  .hero-btn {
+    display: none;
+  }
+  .hero-bullets ul {
+    display: none;
+  }
+  .heroSection-img img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 10px;
+  }
+  .hero-btn-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .hero-bullets-sec {
+    display: flex;
+  }
+  .hero-bullets-sec ul {
+    padding: 0% !important;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+  }
+  .hero-bullets-sec ul li {
+    display: flex;
+  }
+  .hero-bullets-sec ul li p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 184%;
+    color: #205260;
+  }
+  .hero-bullets-sec ul li img {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media (max-width: 576px) {
+  .hero-bullets-sec ul {
+    padding: 0% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-left: 15px;
+  }
+  .lefthero {
+    display: none;
+  }
+  .first-line {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 192%;
+    text-transform: uppercase;
+    color: #1a938a;
+    width: 255px;
+    margin: auto;
+    text-align: center;
+  }
+  .title-hero {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 135.5%;
+    color: #043344;
+    margin: auto;
+    width: 255px;
+    text-align: center;
+  }
+  .second-line {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 192%;
+    text-transform: uppercase;
+    color: #1a938a;
+    width: 270px;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+  }
+  .leftmargin-hero{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .hero-bullets-sec ul li img {
+    top: 5px;
+    position: relative;
+  }
+  .hero-bullets-sec ul li {
+    gap: 10px;
+  }
+}

@@ -12,12 +12,12 @@ function index() {
         xs={24}
         sm={24}
         md={24}
-        lg={9}
-        xl={11}
-        xxl={11}
+        lg={8}
+        xl={10}
+        xxl={10}
         align="middle"
         className="left-tag"
-        style={{ paddingTop: "8%" }}
+        style={{ paddingTop: "10%",paddingLeft:"5%" }}
       >
         <div className="eight-left-head-one-tag">
           <p className="eight-left-head-one">
@@ -38,31 +38,31 @@ function index() {
           <ul>
             <li>
               <CheckCircleOutlined
-                style={{ color: "#219387", paddingRight: "2%" }}
+                style={{ color: "#219387" }}
               />{" "}
               Multi-Country Payroll
             </li>
             <li>
               <CheckCircleOutlined
-                style={{ color: "#529571", paddingRight: "2%" }}
+                style={{ color: "#529571" }}
               />{" "}
              WPS Payroll Automation
             </li>
             <li>
               <CheckCircleOutlined
-                style={{ color: "#81965c", paddingRight: "2%" }}
+                style={{ color: "#81965c" }}
               />{" "}
               Payroll Insights & Reports
             </li>
             <li>
               <CheckCircleOutlined
-                style={{ color: "#b39845", paddingRight: "2%" }}
+                style={{ color: "#b39845" }}
               />{" "}
               Expenses Management
             </li>
             <li>
               <CheckCircleOutlined
-                style={{ color: "#e29a30", paddingRight: "2%" }}
+                style={{ color: "#e29a30" }}
               />{" "}
               Loan Management
             </li>
@@ -70,7 +70,7 @@ function index() {
         </div>
         <button className="eight-left-tag-btn">Learn More</button>
       </Col>
-      <Col xs={24} sm={24} md={24} lg={15} xl={13} xxl={13} align="middle">
+      <Col xs={24} sm={24} md={24} lg={16} xl={14} xxl={14} align="middle">
         <div className="eight-resposive-two">
         <img src={eightimg} alt="Not found" className="right-tag-img" />
         </div>

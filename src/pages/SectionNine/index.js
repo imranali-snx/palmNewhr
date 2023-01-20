@@ -1,25 +1,26 @@
 import { Row, Col } from "antd";
 import React from "react";
 import Time from "../../images/Time.png";
+import formimg from "../../images/expense.png";
 import { CheckCircleOutlined } from "@ant-design/icons";
 import "./style.css";
-import bg9 from "../../images/bg9.png";
-import formicon from "../../images/formicon2.png";
-import formicon3 from "../../images/formicon3.png";
-import formimg from "../../images/formimg.png";
-import formicon1 from "../../images/formicon1.png";
+// import bg9 from "../../images/bg9.png";
+// import formicon from "../../images/formicon2.png";
+// import formicon3 from "../../images/formicon3.png";
+// import formimg from "../../images/formimg.png";
+// import formicon1 from "../../images/formicon1.png";
 import Groupform from "../../images/Groupform.png";
 import Groupformtwo from "../../images/Groupformtwo.png"
-import { DatePicker, Checkbox, Form, Input, Button, Space } from "antd";
-import { MinusCircleOutlined, PlusOutlined } from "@ant-design/icons";
+// import { DatePicker, Checkbox, Form, Input, Button, Space } from "antd";
+// import { MinusCircleOutlined, PlusOutlined } from "@ant-design/icons";
 
 function index() {
-  const onFinish = (values) => {
-    console.log("Success:", values);
-  };
-  const onFinishFailed = (errorInfo) => {
-    console.log("Failed:", errorInfo);
-  };
+  // const onFinish = (values) => {
+  //   console.log("Success:", values);
+  // };
+  // const onFinishFailed = (errorInfo) => {
+  //   console.log("Failed:", errorInfo);
+  // };
   return (
     <Row className="section-nine">
       <Col
@@ -33,51 +34,12 @@ function index() {
         className="section-nine-left"
       >
         <Row className="form-tag">
-          <img src={Groupform}/>
+          {/* <img src={Groupform}/> */}
+          <img src={formimg} />
         </Row>
         <Row className="nine-img"></Row>
 
-        {/* <Row className="nine-form" >
-          
-          <Col span={24} className="form-tag"
-          >
-            <div>Pay Request</div>
-            <div>Expense Claim</div>
-            <Form
-            
-            
-            >
-              
-              <Row >
-                <Col span={22}>
-                <Form.Item label="DatePicker"   >
-                </Form.Item>
-              
-                </Col>
-                <Col span={22}>
-                <Form.Item   >
-              <img src={formicon1}/> <DatePicker style={{width:"100%" }}/>
-             </Form.Item>
-                </Col>
-              
-              </Row>
-             
-              <Row>
-                <Col></Col>
-                <Col></Col>
-
-              </Row>
-              <Row>
-                <Col></Col>
-                <Col></Col>
-              </Row>
-              <Col>
-              
-              </Col>
-            </Form>
-          </Col>
-        </Row>
-        <Row className="nine-img"></Row> */}
+        
       </Col>
       <Col
         xs={24}
@@ -94,7 +56,7 @@ function index() {
             <p className="nine-right-title">
               <img src={Time} alt="no image" /> TALENT MANAGEMENT
             </p>
-            <div>
+            <div className="nine-div">
               <p className="nine-right-head-one">Create a Workplace</p>
               <p className="nine-right-head-one">
                 You Can Call Home <span className="dot-color">.</span>
@@ -108,31 +70,31 @@ function index() {
             <ul>
               <li>
                 <CheckCircleOutlined
-                  style={{ color: "#219387", paddingRight: "2%" }}
+                  style={{ color: "#219387" }}
                 />{" "}
                 Onboarding / Offboarding
               </li>
               <li>
                 <CheckCircleOutlined
-                  style={{ color: "#529571", paddingRight: "2%" }}
+                  style={{ color: "#529571" }}
                 />{" "}
                 ESS Online Requests
               </li>
               <li>
                 <CheckCircleOutlined
-                  style={{ color: "#81965c", paddingRight: "2%" }}
+                  style={{ color: "#81965c" }}
                 />{" "}
                 Internal Communications
               </li>
               <li>
                 <CheckCircleOutlined
-                  style={{ color: "#b39845", paddingRight: "2%" }}
+                  style={{ color: "#b39845" }}
                 />{" "}
                 Performance Management
               </li>
               <li>
                 <CheckCircleOutlined
-                  style={{ color: "#e29a30", paddingRight: "2%" }}
+                  style={{ color: "#e29a30"}}
                 />{" "}
                 EOS & Benefits Management
               </li>
