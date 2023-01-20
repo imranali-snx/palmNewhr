@@ -3,7 +3,7 @@ import "./style.css";
 import HeartImage from "../../images/sectionfive.png";
 import heartline from "../../images/heartgifline.gif";
 import simg from "../../images/sm-image.png";
-import calender from "../../images/Calender.png";
+import calender from "../../images/calenderr.png";
 import { Button } from "antd";
 const index = () => {
   return (

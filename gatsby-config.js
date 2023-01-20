@@ -3,7 +3,22 @@
  */
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://www.yourdomain.tld`,
+    title: `palm-hr`,
+    siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: [],
+  plugins: ["gatsby-plugin-image", "gatsby-plugin-offline","gatsby-plugin-sitemap", {
+    resolve: 'gatsby-plugin-manifest',
+    resolve: `gatsby-plugin-offline`,
+
+    options: {
+      "icon": "src/images/a1.png"
+    }
+  }, "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
+    resolve: 'gatsby-source-filesystem',
+    options: {
+      "name": "images",
+      "path": "./src/images/"
+    },
+    __key: "images"
+  }]
 };
