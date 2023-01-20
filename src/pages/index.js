@@ -5,13 +5,11 @@ import Sectionthree from "./Sectionthree";
 import Sectionfour from "./Sectionfour";
 import Sectionfive from "./Sectionfive";
 import Section7 from "./Section7";
-
 import SectionSix from "./SectionSix";
 import SectionSeven from "./SectionSeven";
 import SectionEight from "./SectionEight";
 import SectionNine from "./SectionNine";
 import SectionTen from "./SectionTen";
-
 import SectionEleven from "./SectionEleven";
 import SectionTwelve from "./SectionTwelve";
 import SectionThirteen from "./SectionThirteen";
@@ -24,7 +22,6 @@ const IndexPage = () => {
     <>
       <Sectionone />
       <SectionHeader />
-
       <Sectiontwo />
       <Sectionthree />
       <Sectionfour />
