@@ -1,18 +1,16 @@
 import * as React from "react";
-import Sectionone from '../pages/Sectionone'
-import Sectiontwo from '../pages/Sectiontwo'
-import Sectionthree from '../pages/Sectionthree'
-import Sectionfour from '../pages/Sectionfour'
-import Sectionfive from '../pages/Sectionfive'
-import Section7 from '../pages/Section7'
+import Sectionone from "./Sectionone";
+import Sectiontwo from "./Sectiontwo";
+import Sectionthree from "./Sectionthree";
+import Sectionfour from "./Sectionfour";
+import Sectionfive from "./Sectionfive";
+import Section7 from "./Section7";
 
-
-import SectionSix from '../pages/SectionSix';
-import SectionSeven from '../pages/SectionSeven';
-import SectionEight from '../pages/SectionEight';
-import SectionNine from '../pages/SectionNine';
-import SectionTen from '../pages/SectionTen';
-
+import SectionSix from "./SectionSix";
+import SectionSeven from "./SectionSeven";
+import SectionEight from "./SectionEight";
+import SectionNine from "./SectionNine";
+import SectionTen from "./SectionTen";
 
 import SectionEleven from "./SectionEleven";
 import SectionTwelve from "./SectionTwelve";
@@ -24,25 +22,23 @@ import "./global.css";
 const IndexPage = () => {
   return (
     <>
-     <Sectionone/>
-     <SectionHeader />
+      <Sectionone />
+      <SectionHeader />
 
-     <Sectiontwo/>
-     <Sectionthree/>
-     <Sectionfour/>
-     <Sectionfive/>
-   
-     <Section7/>
-    <SectionSix/>
-    < SectionSeven/>
-    < SectionEight/>
-    < SectionNine/>
-    < SectionTen/>
-
+      <Sectiontwo />
+      <Sectionthree />
+      <Sectionfour />
+      <Sectionfive />
+      <Section7 />
+      <SectionSix />
+      <SectionSeven />
+      <SectionEight />
+      <SectionNine />
+      <SectionTen />
       <SectionEleven />
       <SectionTwelve />
       <SectionThirteen />
-      <SectionForteen /> 
+      <SectionForteen />
     </>
   );
 };
